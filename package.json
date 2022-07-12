@@ -1,0 +1,29 @@
+{
+  "name": "@chiendv/rocket-websocket-wrapper",
+  "version": "0.1.2",
+  "description": "Wrapper for easier working with Rocket.Chat server via WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "uuid": "^8.3.2",
+    "dotenv": "^16.0.1",
+    "ws": "^8.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiendv/rocket-websocket-wrapper.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "rocket.chat",
+    "websocket"
+  ],
+  "author": "Jamie Duong (me@chiendv.com)",
+  "license": "ISC"
+}
